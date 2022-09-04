@@ -14,7 +14,7 @@ The name of this project is AbimBlog, a simple WebBlog created with Python(Using
 
 # General Info
 <hr>
-<p> This would be my second mini project as a junior full stack web developer in training and the step by step guides on how I was able to carry out this project with the help of my instructor and some online materials will be documented!</p>
+<p> This would be my second mini project as a junior full stack web developer in training and the step by step guides on how I was able to carry out this project with the help of my instructors and some online materials will be documented!</p>
 
 # Introduction
 <hr>
