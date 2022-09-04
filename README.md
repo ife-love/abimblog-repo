@@ -52,4 +52,4 @@ In progress..
 
 # Inspiration
 <hr>
-This app was created with the help of @Jose Portilla Python and Django Full-Stack Training Course and also Codemy.com Dhango Blog series on Youtube. 
+This app was created with the help of @Jose Portilla Python and Django Full-Stack Training Course and also Codemy.com Django Blog series on Youtube. 
