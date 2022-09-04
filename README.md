@@ -1,4 +1,4 @@
-# AbimBlog - A simple Website with Blog
+# AbimBlog - A simple Blog Site.
 The name of this project is AbimBlog, a simple WebBlog created with Python(Using it's framework Django), Html, Css and Bootstrap.
 
 # Table of Contents
