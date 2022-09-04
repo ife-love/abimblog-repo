@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %} Delete Blog Post {% endblock %}
+
+{% block content %}
+
+
+    <h1 class="pt-3">Delete Blog Post</h1>
+    <br><br>
+
+<div class="form-group editable post-form">
+    <form method="post" action="">
+        {% csrf_token %}
+        <p>Are you sure you want to delete {{object.title}}?</p>
+        <br>
+        <a class="btn btn-warning" href="{% url 'post-detail' post.pk %}">Cancel</a>
+        <button class="btn btn-danger" type="submit">Confirm</button>
+        
+    </form>
+</div>
+
+<script> var editor = new MediumEditor('.editable');</script>
+
+{% endblock %}

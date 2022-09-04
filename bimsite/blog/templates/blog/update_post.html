@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Edit Blog Post{% endblock %}
+{% block content %}
+
+<div>
+    <h1 class="pt-3">Update Blog Post</h1>
+    <br>
+
+<div class="form-group editable post-form">
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-primary" type="submit">Update</button>
+        
+    </form>
+</div>
+
+<script> var editor = new MediumEditor('.editable');</script>
+</div>
+
+
+
+{% endblock %}

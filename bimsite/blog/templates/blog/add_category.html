@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %} Add Category {% endblock %}
+
+{% block content %}
+
+
+    <h1 class="pt-3">Add Category...</h1>
+    <br>
+
+<div class="form-group editable post-form">
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-secondary" type="submit">Add Category</button>
+        
+    </form>
+</div>
+
+<script> var editor = new MediumEditor('.editable');</script>
+
+{% endblock %}
